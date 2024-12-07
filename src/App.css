@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.GameBoard{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-rows:4fr 4fr 4fr ;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #000000;
+}
+.cells{
+  border: 3px solid #000000;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.O{
+  color: #00f3d6;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.X{
+  color: #f30000;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
